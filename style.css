@@ -1,0 +1,21 @@
+/* 
+*{
+    border: solid red 2px;
+}
+*/
+body {
+    margin: 0px;
+}
+.container-one {
+    background-color: rgba(92, 92, 211, 0.796);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.under-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

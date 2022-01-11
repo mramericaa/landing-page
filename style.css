@@ -153,10 +153,16 @@ ul{
     padding-bottom: 50px;
     padding-top: 50px;
     display: flex;
+    flex-shrink: 0;
     justify-content: space-between;
+    gap: 50px;
 }
 .call-text{
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-wrap: none;
 }
 .sign-up-inverse{
     color: #F9FAF8;
@@ -165,4 +171,20 @@ ul{
     font-size: 20px;
     border: 2px solid white;
     border-radius: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    width: 25%;
+    flex-shrink:1;
+}
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 25px;
 }
